@@ -14,7 +14,7 @@
  router.put('/typePay/:id', projectController.updateTypePay);
  router.delete('/typePay/:id', projectController.deleteTypePay);
  //Rutas Plan
- router.post('/save-plan',projectController.savePlan);
+ /*router.post('/save-plan',projectController.savePlan);
  router.get('/plan/:id?', projectController.getPlan);
  router.get('/plans', projectController.getPlans);
  router.put('/plan/:id', projectController.updatePlan);
@@ -56,7 +56,7 @@
  router.put('/order/:id', projectController.updateOrder);
  router.delete('/order/:id', projectController.deleteOrder);
  //Ruta login
- router.post('/signin', projectController.loginUsuario);
+ router.post('/signin', projectController.loginUsuario);*/
 
 
 

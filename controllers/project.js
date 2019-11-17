@@ -2,13 +2,13 @@
 
 //Models
 var TypePay = require('../models/typePay');
-var Plan = require('../models/plan');
+/*var Plan = require('../models/plan');
 var Company = require('../models/company');
 var Client = require('../models/client');
 var MedicalProfile = require('../models/medical_profile');
 var Kid = require('../models/kid');
 var Lunchbox = require('../models/lunchbox');
-var Order = require('../models/order');
+var Order = require('../models/order');*/
 
 var fs = require('fs');
 const jwt = require('jwt-simple');
@@ -90,7 +90,7 @@ var controller = {
         });
     },
     //Controladores para modelo Plan
-    savePlan: function(req, res)
+    /*savePlan: function(req, res)
     {
         var plan = new Plan();
         var params = req.body;
@@ -679,7 +679,7 @@ var controller = {
             return res.status(401).send({message: 'No autorizado'});
             
         });
-    }
+    }*/
 
 };
 
