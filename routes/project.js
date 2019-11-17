@@ -14,13 +14,13 @@
  router.put('/typePay/:id', projectController.updateTypePay);
  router.delete('/typePay/:id', projectController.deleteTypePay);
  //Rutas Plan
- /*router.post('/save-plan',projectController.savePlan);
+ router.post('/save-plan',projectController.savePlan);
  router.get('/plan/:id?', projectController.getPlan);
  router.get('/plans', projectController.getPlans);
  router.put('/plan/:id', projectController.updatePlan);
  router.delete('/plan/:id', projectController.deletePlan);
  //Rutas Company
- router.post('/save-company',projectController.saveCompany);
+ /*router.post('/save-company',projectController.saveCompany);
  router.get('/company/:id?', projectController.getCompany);
  router.get('/companys', projectController.getCompanys);
  router.put('/company/:id', projectController.updateCompany);
