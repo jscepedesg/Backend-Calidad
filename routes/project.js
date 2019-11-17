@@ -32,13 +32,13 @@
  router.put('/client/:id', projectController.updateClient);
  router.delete('/client/:id', projectController.deleteClient);
  //Rutas medical profile
- /*router.post('/save-medicalProfile',projectController.saveMedicalProfile);
+ router.post('/save-medicalProfile',projectController.saveMedicalProfile);
  router.get('/medicalProfile/:id?', projectController.getMedicalProfile);
  router.get('/medicalProfiles', projectController.getMedicalProfiles);
  router.put('/medicalProfile/:id', projectController.updateMedicalProfile);
  router.delete('/medicalProfile/:id', projectController.deleteMedicalProfile);
  //Rutas Kid
- router.post('/save-kid',projectController.saveKid);
+ /*router.post('/save-kid',projectController.saveKid);
  router.get('/kid/:id?', projectController.getKid);
  router.get('/kids', projectController.getKids);
  router.put('/kid/:id', projectController.updateKid);
