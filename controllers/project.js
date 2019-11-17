@@ -6,8 +6,8 @@ var Plan = require('../models/plan');
 var Company = require('../models/company');
 var Client = require('../models/client');
 var MedicalProfile = require('../models/medical_profile');
-/*var Kid = require('../models/kid');
-var Lunchbox = require('../models/lunchbox');
+var Kid = require('../models/kid');
+/*var Lunchbox = require('../models/lunchbox');
 var Order = require('../models/order');*/
 
 var fs = require('fs');
@@ -407,7 +407,7 @@ var controller = {
         });
     },
     //Controladores para modelo kid
-    /*saveKid: function(req, res)
+    saveKid: function(req, res)
     {
         var kid = new Kid();
         var params = req.body;
@@ -499,7 +499,7 @@ var controller = {
         });
     },
     //Controladores para modelo lunchbox
-    saveLunchbox: function(req, res)
+    /*saveLunchbox: function(req, res)
     {
         var lunchbox = new Lunchbox();
         var params = req.body;

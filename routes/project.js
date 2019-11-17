@@ -38,13 +38,13 @@
  router.put('/medicalProfile/:id', projectController.updateMedicalProfile);
  router.delete('/medicalProfile/:id', projectController.deleteMedicalProfile);
  //Rutas Kid
- /*router.post('/save-kid',projectController.saveKid);
+ router.post('/save-kid',projectController.saveKid);
  router.get('/kid/:id?', projectController.getKid);
  router.get('/kids', projectController.getKids);
  router.put('/kid/:id', projectController.updateKid);
  router.delete('/kid/:id', projectController.deleteKid);
  //Rutas lunchbox
- router.post('/save-lunchbox',projectController.saveLunchbox);
+ /*router.post('/save-lunchbox',projectController.saveLunchbox);
  router.get('/lunchbox/:id?', projectController.getLunchbox);
  router.get('/lunchboxs', projectController.getLunchboxs);
  router.put('/lunchbox/:id', projectController.updateLunchbox);
