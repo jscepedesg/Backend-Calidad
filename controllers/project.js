@@ -657,7 +657,7 @@ var controller = {
             return res.status(200).send({order: orderRemoved});
         });
     },
-    /*loginUsuario: function(req, res)
+    loginUsuario: function(req, res)
     {
         Client.find({email: req.body.email, password: req.body.password }, (err, client) => {
             if(err) return res.status(500).send({message: 'Error al guardar el documento.'});
@@ -679,7 +679,7 @@ var controller = {
             return res.status(401).send({message: 'No autorizado'});
             
         });
-    }*/
+    }
 
 };
 

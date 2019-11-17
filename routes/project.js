@@ -56,7 +56,7 @@
  router.put('/order/:id', projectController.updateOrder);
  router.delete('/order/:id', projectController.deleteOrder);
  //Ruta login
- /*router.post('/signin', projectController.loginUsuario);*/
+ router.post('/signin', projectController.loginUsuario);
 
 
 
