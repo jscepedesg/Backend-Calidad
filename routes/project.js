@@ -26,13 +26,13 @@
  router.put('/company/:id', projectController.updateCompany);
  router.delete('/company/:id', projectController.deleteCompany);
  //Rutas Client
- /*router.post('/save-client',projectController.saveClient);
+ router.post('/save-client',projectController.saveClient);
  router.get('/client/:id?', projectController.getClient);
  router.get('/clients', projectController.getClients);
  router.put('/client/:id', projectController.updateClient);
  router.delete('/client/:id', projectController.deleteClient);
  //Rutas medical profile
- router.post('/save-medicalProfile',projectController.saveMedicalProfile);
+ /*router.post('/save-medicalProfile',projectController.saveMedicalProfile);
  router.get('/medicalProfile/:id?', projectController.getMedicalProfile);
  router.get('/medicalProfiles', projectController.getMedicalProfiles);
  router.put('/medicalProfile/:id', projectController.updateMedicalProfile);

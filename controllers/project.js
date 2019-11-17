@@ -4,8 +4,8 @@
 var TypePay = require('../models/typePay');
 var Plan = require('../models/plan');
 var Company = require('../models/company');
-/*var Client = require('../models/client');
-var MedicalProfile = require('../models/medical_profile');
+var Client = require('../models/client');
+/*var MedicalProfile = require('../models/medical_profile');
 var Kid = require('../models/kid');
 var Lunchbox = require('../models/lunchbox');
 var Order = require('../models/order');*/
@@ -238,7 +238,7 @@ var controller = {
         });
     },
     //Controladores para modelo Cliente
-    /*saveClient: function(req, res)
+    saveClient: function(req, res)
     {
         var client = new Client();
         var params = req.body;
@@ -336,7 +336,7 @@ var controller = {
         });
     },
     //Controladores para modelo medical_profile
-    saveMedicalProfile: function(req, res)
+    /*saveMedicalProfile: function(req, res)
     {
         var medicalProfile = new MedicalProfile();
         var params = req.body;
