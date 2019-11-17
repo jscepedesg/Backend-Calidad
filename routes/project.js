@@ -44,13 +44,13 @@
  router.put('/kid/:id', projectController.updateKid);
  router.delete('/kid/:id', projectController.deleteKid);
  //Rutas lunchbox
- /*router.post('/save-lunchbox',projectController.saveLunchbox);
+ router.post('/save-lunchbox',projectController.saveLunchbox);
  router.get('/lunchbox/:id?', projectController.getLunchbox);
  router.get('/lunchboxs', projectController.getLunchboxs);
  router.put('/lunchbox/:id', projectController.updateLunchbox);
  router.delete('/lunchbox/:id', projectController.deleteLunchbox);
  //Rutas order
- router.post('/save-order',projectController.saveOrder);
+ /*router.post('/save-order',projectController.saveOrder);
  router.get('/order/:id?', projectController.getOrder);
  router.get('/orders', projectController.getOrders);
  router.put('/order/:id', projectController.updateOrder);

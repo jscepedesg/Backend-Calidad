@@ -7,8 +7,8 @@ var Company = require('../models/company');
 var Client = require('../models/client');
 var MedicalProfile = require('../models/medical_profile');
 var Kid = require('../models/kid');
-/*var Lunchbox = require('../models/lunchbox');
-var Order = require('../models/order');*/
+var Lunchbox = require('../models/lunchbox');
+/*var Order = require('../models/order');*/
 
 var fs = require('fs');
 const jwt = require('jwt-simple');
@@ -499,7 +499,7 @@ var controller = {
         });
     },
     //Controladores para modelo lunchbox
-    /*saveLunchbox: function(req, res)
+    saveLunchbox: function(req, res)
     {
         var lunchbox = new Lunchbox();
         var params = req.body;
@@ -579,7 +579,7 @@ var controller = {
         });
     },
     //Controladores para modelo order
-    saveOrder: function(req, res)
+    /*saveOrder: function(req, res)
     {
         var order = new Order();
         var params = req.body;
