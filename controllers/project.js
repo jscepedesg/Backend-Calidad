@@ -8,7 +8,7 @@ var Client = require('../models/client');
 var MedicalProfile = require('../models/medical_profile');
 var Kid = require('../models/kid');
 var Lunchbox = require('../models/lunchbox');
-/*var Order = require('../models/order');*/
+var Order = require('../models/order');
 
 var fs = require('fs');
 const jwt = require('jwt-simple');
@@ -579,7 +579,7 @@ var controller = {
         });
     },
     //Controladores para modelo order
-    /*saveOrder: function(req, res)
+    saveOrder: function(req, res)
     {
         var order = new Order();
         var params = req.body;
@@ -657,7 +657,7 @@ var controller = {
             return res.status(200).send({order: orderRemoved});
         });
     },
-    loginUsuario: function(req, res)
+    /*loginUsuario: function(req, res)
     {
         Client.find({email: req.body.email, password: req.body.password }, (err, client) => {
             if(err) return res.status(500).send({message: 'Error al guardar el documento.'});
