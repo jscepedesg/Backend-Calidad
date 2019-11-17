@@ -3,8 +3,8 @@
 //Models
 var TypePay = require('../models/typePay');
 var Plan = require('../models/plan');
-/*var Company = require('../models/company');
-var Client = require('../models/client');
+var Company = require('../models/company');
+/*var Client = require('../models/client');
 var MedicalProfile = require('../models/medical_profile');
 var Kid = require('../models/kid');
 var Lunchbox = require('../models/lunchbox');
@@ -168,7 +168,7 @@ var controller = {
         });
     },
     //Controladores para modelo company
-    /*saveCompany: function(req, res)
+    saveCompany: function(req, res)
     {
         var company = new Company();
         var params = req.body;
@@ -238,7 +238,7 @@ var controller = {
         });
     },
     //Controladores para modelo Cliente
-    saveClient: function(req, res)
+    /*saveClient: function(req, res)
     {
         var client = new Client();
         var params = req.body;

@@ -20,13 +20,13 @@
  router.put('/plan/:id', projectController.updatePlan);
  router.delete('/plan/:id', projectController.deletePlan);
  //Rutas Company
- /*router.post('/save-company',projectController.saveCompany);
+ router.post('/save-company',projectController.saveCompany);
  router.get('/company/:id?', projectController.getCompany);
  router.get('/companys', projectController.getCompanys);
  router.put('/company/:id', projectController.updateCompany);
  router.delete('/company/:id', projectController.deleteCompany);
  //Rutas Client
- router.post('/save-client',projectController.saveClient);
+ /*router.post('/save-client',projectController.saveClient);
  router.get('/client/:id?', projectController.getClient);
  router.get('/clients', projectController.getClients);
  router.put('/client/:id', projectController.updateClient);
